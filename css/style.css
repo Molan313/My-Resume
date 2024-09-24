@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.navbar li ul a {
+    text-decoration: none;
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    color: black;
+}
+
+.navbar li ul a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#hero {
+    /* background-color: #07E458; */
+    background-color: black;
+    color: white;
+}
+
+#hero .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar img {
+    width: 340px;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+
+.deskripsi {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.info {
+    width: 500px;
+}
+
+.info h1 {
+    font-size: 2.5rem;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 700;
+}
+
+.info p {
+    font-size: 1.5rem;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 400;
+}
+
+#about {
+    background-color: black;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+}
+
+#about > h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 2.7rem;
+    padding-top: 50px;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+}
+
+.container .universitas img, .container .sma img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.unja,.stupa {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 10px solid white;
+    width: 280px;
+    height: 400px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.container .unja a, .container .sma a {
+    text-decoration: none;
+    color: white;
+    font-family: "Playpen Sans", cursive;
+    font-size: .68rem;
+    font-weight: 400;
+}
